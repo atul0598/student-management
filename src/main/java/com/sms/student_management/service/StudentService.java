@@ -1,4 +1,4 @@
-package com.sms.student_management.student;
+package com.sms.student_management.service;
 
 import com.sms.student_management.dto.StudentRequestDto;
 import com.sms.student_management.dto.StudentResponseDto;
@@ -8,7 +8,6 @@ import com.sms.student_management.mapper.StudentMapper;
 import com.sms.student_management.repository.StudentRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

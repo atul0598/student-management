@@ -2,8 +2,7 @@ package com.sms.student_management.controller;
 
 import com.sms.student_management.dto.StudentRequestDto;
 import com.sms.student_management.dto.StudentResponseDto;
-import com.sms.student_management.student.StudentService;
-import com.sms.student_management.entity.Student;
+import com.sms.student_management.service.StudentService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
